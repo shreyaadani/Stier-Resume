@@ -5,7 +5,7 @@ from ats_score import score_resume
 from visualizer import plot_match_report
 
 # --- Sidebar ---
-st.sidebar.image("assets/logo.png", use_column_width=True)
+st.sidebar.image("assets/logo.png", use_container_width=True)
 st.sidebar.title("📄 Resume Analyzer")
 st.sidebar.markdown("Upload your resume and job description to get:")
 st.sidebar.markdown("- 🧠 Smart section detection\n- 📈 ATS score\n- 📊 Visual match report")
