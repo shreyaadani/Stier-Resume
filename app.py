@@ -2,7 +2,7 @@ import streamlit as st
 from resume_parser import extract_text_from_pdf, split_into_sections
 from job_matcher import match_resume_to_job
 from ats_score import score_resume
-from visualize import plot_match_report
+from visualizer import plot_match_report
 
 # --- Sidebar ---
 st.sidebar.image("assets/logo.png", use_column_width=True)
